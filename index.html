@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image Slider</title>
+  <link rel="stylesheet" href="./style.css">
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+  <div class="container">
+    <h1 class="text">Image Slider</h1>
+
+    <div class="images">
+      <img src="./images/audi.jpg" alt="">
+    </div>
+
+    <div class="images">
+        <img src="./images/bmw.jpg" alt="">
+    </div>
+
+
+    <div class="images">
+        <img src="./images/benz.jpg" alt="">
+    </div>
+
+
+    <div class="images">
+        <img src="./images/ferrari.jpg" alt="">
+    </div>
+
+
+    <div class="images">
+        <img src="./images/jaguar.jpg" alt="">
+    </div>
+
+
+    <div class="images">
+        <img src="./images/lamborghini.jpg" alt="">
+    </div>
+
+
+    <div class="images">
+        <img src="./images/mustang.jpg" alt="">
+    </div>
+
+
+    <div class="images">
+        <img src="./images/porsche.jpg" alt="">
+    </div>
+
+
+    <div class="buttons">
+
+      <button><a onclick="nextimg(-1)" class="prev"><i class="fa-solid fa-angles-left"></i></a></button>
+
+      <button><a onclick="nextimg(1)" class="next"><i class="fa-solid fa-angles-right" ></i></a></button>
+</div>
+
+<div class="dots">
+
+  <span class="dot" onclick="currentSlide(1)"></span>
+  <span class="dot" onclick="currentSlide(2)"></span>
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span>
+  <span class="dot" onclick="currentSlide(5)"></span>
+  <span class="dot" onclick="currentSlide(6)"></span>
+  <span class="dot" onclick="currentSlide(7)"></span>
+  <span class="dot" onclick="currentSlide(8)"></span>
+</div>
+
+
+
+
+  </div>
+  <script src="./script.js"></script>
+</body>
+</html>
