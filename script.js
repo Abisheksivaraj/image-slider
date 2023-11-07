@@ -40,20 +40,7 @@ function displayimg(n){
 
 
   imageEl[imageno - 1].style.display = "block";
-  dotEl[imageno - 1].className += "active";
-
-
-
-
-
-
-
-
-
-
-
-
-
+ 
 
 
 
